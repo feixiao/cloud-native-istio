@@ -11,7 +11,7 @@ spec:
   selector:
     app: tcp-echo
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: tcp-echo-v1
